@@ -12,3 +12,5 @@
 [tutorial]: https://nbviewer.jupyter.org/github/codebysandwich/Python_Core/blob/master/Foundation/Tutorial.ipynb
 
 [python100]: https://github.com/codebysandwich/Python_Core/blob/master/Foundation/python100%E8%AF%AD%E6%84%9F.md
+
+
