@@ -2,11 +2,24 @@
 + 目的
 
 展现原生python细节及高级Python使用方法
+<!-- vim-markdown-toc GFM -->
+
+* [Foundation](#foundation)
+* [Iterator](#iterator)
+* [Closure](#closure)
+* [MultiThread](#multithread)
+* [MultiProcessing](#multiprocessing)
+* [Coroutine](#coroutine)
+
+<!-- vim-markdown-toc -->
 
 
 # Foundation
 + [Tutorial][tutorial]简单介绍了python的数据结构和基本流程控制以及函数初步认识
 + [python100语感][python100]来自天元浪子的python语感训练
+
+# Iterator
+主要介绍`可迭代对象`、`迭代器`和`生成器`。
 
 # Closure
 闭包, 实现装饰器的基础。除此之外闭包还是回调异步编程和函数式编程的基础。
