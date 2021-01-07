@@ -19,7 +19,7 @@
 + [python100语感][python100]来自天元浪子的python语感训练
 
 # Iterator
-:rocket:[click here](.Iterator/README.md) 
+:rocket:[click here](/Iterator/README.md)
 
 主要介绍`可迭代对象(Iterable)`、`迭代器(Iterator)`和`生成器(Generator)`。
 
