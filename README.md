@@ -19,7 +19,7 @@
 + [python100语感][python100]来自天元浪子的python语感训练
 
 # Iterator
-:rocket:[click here](/Iterator/README.md)
+:rocket:[click here](/Iterator)
 
 主要介绍`可迭代对象(Iterable)`、`迭代器(Iterator)`和`生成器(Generator)`。
 
@@ -32,6 +32,8 @@
 - 可迭代对象，迭代器，生成器之间的关系
 
 # Closure
+:rocket:[click here](./Closure)
+
 闭包, 实现装饰器的基础。除此之外闭包还是回调异步编程和函数式编程的基础。
 
 主要学习
@@ -46,9 +48,13 @@
 - 实现一个参数化的装饰器
 
 # MultiThread
+:rocket:[click here](./MultiThread)
+
 多线程
 
 # MultiProcessing
+:rocket:[click here]()
+
 多进程
 
 # Coroutine
