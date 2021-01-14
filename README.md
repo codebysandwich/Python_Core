@@ -21,6 +21,8 @@
 # Iterator
 :rocket:[click here](/Iterator)
 
+![月饼生产模式](https://i.loli.net/2021/01/11/YOMc7pdIgTablqX.gif)
+
 主要介绍`可迭代对象(Iterable)`、`迭代器(Iterator)`和`生成器(Generator)`。
 
 迭代是数据处理极其重要的部分，我们处理内存中放不下的数据时，我们需要一种惰性地处理方式，按需一次获取一个数据项。这带来的好处是在数据处理的过程中降低内存的使用(数据按需获取！)。
