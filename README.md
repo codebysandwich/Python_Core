@@ -6,6 +6,7 @@
 
 * [Foundation](#foundation)
 * [Iterator](#iterator)
+* [OOP](#oop)
 * [Closure](#closure)
 * [MultiThread](#multithread)
 * [MultiProcessing](#multiprocessing)
@@ -32,6 +33,10 @@
 - 使用Python实现经典的迭代器
 - 说明生成器的工作原理
 - 使用yield from 合并生成器
+
+# OOP
+面向对象的基本知识
+- [property](./OOP/property.py) 封装属性
 
 # Closure
 :rocket:[click here](./Closure)
