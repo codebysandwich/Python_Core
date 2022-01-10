@@ -11,4 +11,6 @@
 ### numpy
 
 ### pandas
+
+- [pandas多级索引按索引层级排序](./DataScience/PandasTricks/SortIndexByLevel.py)
 - [pandas索引key不存在的解决办法](./DataScience/PandasTricks/loc_Noninclued.py)
