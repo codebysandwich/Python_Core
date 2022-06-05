@@ -3,11 +3,12 @@
 # File              : property.py
 # Author            : sandwich <122079260@qq.com>
 # Date              : 2021-12-06 20:51:10
-# Last Modified Date: 2021-12-16 11:17:05
+# Last Modified Date: 2022-04-29 13:29:26
 # Last Modified By  : sandwich <122079260@qq.com>
 
 
 class Student:
+
     def __init__(self, name) -> None:
         self.name = name
 
