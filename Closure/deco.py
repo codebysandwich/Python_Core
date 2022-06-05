@@ -9,21 +9,18 @@
 
 def deco(func):
 
-    def inner():
-        print("running inner()")
+    def wrapper(*args, **kwargs):
+        print("deco function")
+        func(*args, **kwargs)
 
-    return inner
-
-
-# @deco
-# def target():
-# print("running target()")
+    return wrapper
 
 
+@deco
 def target():
     print('running target()')
 
 
 if __name__ == "__main__":
-    target = deco(target)
+    # target = deco(target)
     target()
