@@ -1,13 +1,10 @@
-# !/usr/bin/env python3
-# -*- encoding: utf-8 -*-
-'''
-@Author: sandwich
-@Date: 2022-03-29 09:51:46
-@LastEditTime: 2022-03-29 09:51:46
-@LastEditors: sandwich
-@Description: In User Settings Edit
-@FilePath: /Python_Core/Closure/ClosureDemo.py
-'''
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# File              : ClosureDemo.py
+# Author            : sandwich
+# Date              : 2023-03-31 14:23:51
+# Last Modified Date: 2023-03-31 14:52:46
+# Last Modified By  : sandwich
 
 
 def pow(power):

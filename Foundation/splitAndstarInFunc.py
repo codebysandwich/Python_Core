@@ -3,9 +3,8 @@
 # File              : splitAndstarInFunc.py
 # Author            : sandwich <122079260@qq.com>
 # Date              : 2022-01-27 14:23:02
-# Last Modified Date: 2022-03-01 15:56:20
-# Last Modified By  : sandwich <122079260@qq.com>
-
+# Last Modified Date: 2023-04-09 13:28:35
+# Last Modified By  : sandwich
 
 def func(a, b, /, f, g, *, e):
     """func.
@@ -19,4 +18,3 @@ def func(a, b, /, f, g, *, e):
 
 if __name__ == "__main__":
     func(1, 2, 5, g=19, e=6)
-      

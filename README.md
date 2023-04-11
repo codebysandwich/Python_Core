@@ -6,13 +6,13 @@
 
 <!-- vim-markdown-toc GFM -->
 
--   [Foundation](#foundation)
--   [Iterator](#iterator)
--   [OOP](#oop)
--   [Closure](#closure)
--   [MultiThread](#multithread)
--   [MultiProcessing](#multiprocessing)
--   [Coroutine](#coroutine)
+* [Foundation](#foundation)
+* [Iterator](#iterator)
+* [OOP](#oop)
+* [Closure](#closure)
+* [MultiThread](#multithread)
+* [MultiProcessing](#multiprocessing)
+* [Coroutine](#coroutine)
 
 <!-- vim-markdown-toc -->
 

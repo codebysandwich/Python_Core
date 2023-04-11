@@ -3,8 +3,8 @@
 # File              : InitList.py
 # Author            : sandwich <122079260@qq.com>
 # Date              : 2022-04-29 15:40:34
-# Last Modified Date: 2022-05-05 09:31:30
-# Last Modified By  : sandwich <122079260@qq.com>
+# Last Modified Date: 2022-12-02 13:47:27
+# Last Modified By  : sanwich <122079260@qq.com>
 
 
 def append(item, lst=[]):
