@@ -3,8 +3,8 @@
 # File              : pool_example.py
 # Author            : sanwich <122079260@qq.com>
 # Date              : 2021-03-25 17:57:23
-# Last Modified Date: 2021-08-30 11:40:40
-# Last Modified By  : sandwich <122079260@qq.com>
+# Last Modified Date: 2023-04-15 14:29:10
+# Last Modified By  : sandwich
 
 from multiprocessing import Pool, Manager, Lock, Semaphore
 from random import random

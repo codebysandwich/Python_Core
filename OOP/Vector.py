@@ -1,13 +1,11 @@
-# !/usr/bin/env python3
-# -*- encoding: utf-8 -*-
-'''
-@Author: sandwich
-@Date: 2022-06-06 09:36:53
-@LastEditTime: 2022-06-06 09:37:02
-@LastEditors: sandwich
-@Description: 重载运算符
-@FilePath: /Python_Core/OOP/Vector.py
-'''
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# File              : Vector.py
+# Author            : sandwich
+# Date              : 2023-04-25 15:05:04
+# Last Modified Date: 2023-04-25 15:08:50
+# Last Modified By  : sandwich
+
 from array import array
 from itertools import zip_longest
 
@@ -33,14 +31,16 @@ class Vector:
             pairs = zip_longest(self, other, fillvalue=0)
             return Vector(*(a + b for a, b in pairs))
         except TypeError:
-            raise NotImplemented
+            raise NotImplementedError
 
     def __sub__(self, other):
         try:
             pairs = zip_longest(self, other, fillvalue=0)
             return Vector(*(a - b for a, b in pairs))
-        except TypeError:
-            raise NotImplemented
+        # except TypeError:
+        #     raise NotImplementedError
+        except Exception as e:
+            print(f"Exception: {e}")
 
     def __mul__(self, other):
         ...
@@ -50,3 +50,4 @@ if __name__ == "__main__":
     v1 = Vector(2, 1, 4)
     v2 = Vector(1, 4)
     print(v1 - v2)
+    print(v1 - 4)

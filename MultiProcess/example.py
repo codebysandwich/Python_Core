@@ -3,8 +3,8 @@
 # File              : example.py
 # Author            : sanwich <122079260@qq.com>
 # Date              : 2021-03-25 15:48:40
-# Last Modified Date: 2021-03-25 15:48:40
-# Last Modified By  : sanwich <122079260@qq.com>
+# Last Modified Date: 2023-04-15 14:28:43
+# Last Modified By  : sandwich
 
 from multiprocessing import Pool, Queue, Process
 from time import sleep
