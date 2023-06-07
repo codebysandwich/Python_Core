@@ -3,7 +3,7 @@
 # File              : recursion.py
 # Author            : sandwich <122079260@qq.com>
 # Date              : 2021-09-05 17:34:35
-# Last Modified Date: 2023-04-25 14:22:00
+# Last Modified Date: 2023-06-07 14:10:55
 # Last Modified By  : sandwich
 
 
@@ -19,6 +19,9 @@ def find_doll(doll, contain):
     if doll.contain == contain:
         return doll.code
     else:
+        # 已经递归到最后一层了
+        if doll.item == None:
+            return None
         # 将结果递归
         return find_doll(doll.item, contain)
 
@@ -35,4 +38,6 @@ if __name__ == "__main__":
     #     d = d.item
 
     code = find_doll(d4, "diamond")
+    print(code)
+    code = find_doll(d3, "none")
     print(code)
